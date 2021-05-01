@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/assets/logo.svg" type="image/ico" />
+    <link
+      rel="stylesheet"
+      href="/css/<%= typeof page !== 'undefined' ? page : '' %>.css"
+    />
+
+    <link rel="stylesheet" href="/css/nav.css" />
+    <title>ProctorHat</title>
+  </head>
+  <body>
+    <section id="nav">
+      <nav>
+        <div class="logo">
+          <img src="/assets/logo.svg" alt="Logo" class="logo-img" />
+        </div>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+          <div>
+            <li>
+              <a href="/home"><i class="far fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="/about"><i class="far fa-info-circle"></i> About</a>
+            </li>
+            <li>
+              <a href="/exams"><i class="far fa-book-open"></i> Exam</a>
+            </li>
+            <li>
+              <a href="/contact"><i class="far fa-id-card"></i> Contact</a>
+            </li>
+          </div>
+          <div class="profile">
+            <img src="images/def.png"alt="">
+            <div class="dropdown">
+              <button class="dropbtn" href="#"><img src="assets/profile.png" alt=""> <span id="name">-</span><i class="fa fa-angle-down px-2" aria-hidden="true"></i> </button>
+              <div class="dropdown-content">
+                <a href="/profile"><i class="far fa-user"></i> Profile</a>
+                <a href="#" id="logout"><i class="far fa-sign-out-alt"></i> Logout</a>
+              </div>
+            </div>
+           
+          </div>
+          
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>
