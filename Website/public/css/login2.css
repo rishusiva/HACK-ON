@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  position: fixed;
+  top: 0;
+  font-family: "Montserrat", sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+#bg {
+  position: absolute;
+  width: 100%;
+  min-height: 400px;
+  bottom: 0%;
+  transition: 0.4s;
+}
+@media (max-width: 500px) {
+  #bg {
+    width: 120%;
+  }
+}
+.form {
+  position: relative;
+  z-index: 1;
+  /* background: rgb(212, 212, 212); */
+  backdrop-filter: blur(20px);
+  background-color: rgba(175, 175, 175, 0.2);
+  max-width: 300px;
+  margin: 120px auto 0;
+  padding: 30px;
+  border-radius: 3px 0 3px 0;
+  text-align: center;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.form.isVisible {
+  margin: 70px auto 0;
+}
+
+.thumbnail {
+  background: #6b5cff;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  padding: 50px 30px;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+.thumbnail img {
+  display: block;
+  width: 100%;
+}
+.form input {
+  outline: 0;
+  background: darken(#fff, 5%);
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-radius: 3px 0 3px 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  position: relative;
+  outline: 0;
+  background: #6b5cff;
+  width: 100%;
+  min-height: 50px;
+  border: 0;
+  padding: 15px 0;
+  border-radius: 3px 0 3px 0;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.message {
+  margin: 15px 0 0;
+  color: darken(#fff, 30%);
+  font-size: 12px;
+}
+.message a {
+  color: #6b5cff;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+#error-msg {
+  font-family: "Montserrat", sans-serif !important;
+
+  color: red;
+  font-size: 10px;
+}
+.loader {
+  border: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: spin 1.4s linear infinite;
+  position: absolute;
+  left: 45.85%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

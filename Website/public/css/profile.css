@@ -1,0 +1,125 @@
+#profile {
+  background: rgb(241, 241, 241);
+  min-height: 100vh;
+  /* padding-top: 120px; */
+}
+
+#profile #card {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -55%);
+}
+#profile .padding {
+  padding: 20px !important;
+}
+#profile .user-card-full {
+  overflow: hidden;
+}
+#profile .card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border: none;
+  margin-bottom: 30px;
+}
+
+#profile .row {
+  display: flex;
+  justify-content: center;
+}
+#profile .m-r-0 {
+  margin-right: 0px;
+}
+#profile .m-l-0 {
+  margin-left: 0px;
+}
+#profile .user-card-full .user-profile {
+  border-radius: 5px 0 0 5px;
+}
+#profile .bg-c-lite-green {
+  background: #6b5cff;
+}
+#profile .user-profile {
+  padding: 20px 0;
+}
+#profile .card-block {
+  padding: 1.25rem;
+}
+#profile .m-b-25 {
+  margin-bottom: 25px;
+}
+#profile .img-radius {
+  border-radius: 5px;
+}
+#profile h6 {
+  font-size: 14px;
+}
+#profile .card .card-block p {
+  line-height: 25px;
+}
+@media only screen and (min-width: 1400px) {
+  #profile p {
+    font-size: 14px;
+  }
+}
+#profile .card-block {
+  padding: 1.25rem;
+}
+#profile .b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+#profile .m-b-20 {
+  margin-bottom: 20px;
+}
+#profile .p-b-5 {
+  padding-bottom: 5px !important;
+}
+#profile .card .card-block p {
+  line-height: 25px;
+}
+#profile .m-b-10 {
+  margin-bottom: 10px;
+}
+#profile .text-muted {
+  color: #919aa3 !important;
+}
+#profile .b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+#profile .f-w-600 {
+  font-weight: 600;
+}
+#profile .m-b-20 {
+  margin-bottom: 20px;
+}
+#profile .m-t-40 {
+  margin-top: 20px;
+}
+#profile .p-b-5 {
+  padding-bottom: 5px !important;
+}
+#profile .m-b-10 {
+  margin-bottom: 10px;
+}
+#profile .m-t-40 {
+  margin-top: 20px;
+}
+#profile .user-card-full .social-link li {
+  display: inline-block;
+}
+#profile .user-card-full .social-link li a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 576px) {
+  #profile .card {
+    margin-top: 100px !important;
+  }
+  #profile .card-block {
+    padding: 17px 0px !important;
+  }
+}
