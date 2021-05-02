@@ -6,7 +6,7 @@ Prevention of malpractice among students
 ## Approach
 The COVID-19 pandemic has forced us to push our limits and find innovative ways to solve the problems of our communities. We took a small step towards providing a fair and easy-to-use assessment tool for the students of our community to give their tests online without stepping out of their homes and putting the lives of many at stake.
 
-## Our Product - Proctorhat
+## Our Product - ProctorHat
 
 Our project is divided into 2 segments:
 * Website
