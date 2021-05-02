@@ -192,3 +192,8 @@ body {
     transform: rotate(360deg);
   }
 }
+@media (max-width: 975px) {
+  #top {
+    padding-top: 40px;
+  }
+}
