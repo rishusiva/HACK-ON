@@ -1,0 +1,132 @@
+.aboutus-section {
+  padding: 90px 0;
+  min-height: 90vh;
+  padding-top: 150px;
+  background: rgb(241, 241, 241);
+}
+.thumbnail {
+  background: #6b5cff;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  padding: 50px 30px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  transform: scale(1.5);
+}
+.thumbnail img {
+  display: block;
+  width: 100%;
+}
+.aboutus-title {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin: 0 0 39px;
+  padding: 0 0 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+.aboutus-title::after {
+  background: #6b5cff none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 54px;
+}
+.aboutus-text {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 35px;
+}
+.row {
+  display: flex;
+  gap: 20px;
+}
+#about a:hover,
+#about a:active {
+  color: #5b4ddb;
+  text-decoration: none;
+  outline: 0;
+}
+.aboutus-more {
+  border: 1px solid #6b5cff;
+  border-radius: 25px;
+  color: #6b5cff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+  background: rgb(241, 241, 241) none repeat scroll 0 0;
+  float: left;
+  position: relative;
+  width: 18%;
+}
+.feature .feature-box .iconset::after {
+  background: #6b5cff none repeat scroll 0 0;
+  content: "";
+  height: 150%;
+  left: 35px;
+  position: absolute;
+  top: 100%;
+  width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+  color: #0f0f0f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content {
+  float: left;
+  padding-left: 28px;
+  width: 78%;
+  margin-bottom: 20px;
+}
+.feature .feature-box .feature-content h4 {
+  color: #0f0f0f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+}
+.icon {
+  color: #6b5cff;
+  padding: 0px;
+  font-size: 40px;
+  border: 1px solid #6b5cff;
+  border-radius: 100px;
+  color: #6b5cff;
+  font-size: 28px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 70px;
+}
+@media (max-width: 768px) {
+  .thumbnail {
+    margin: 60px auto;
+  }
+}
+@media (min-width: 768px) {
+  .thumbnail {
+    position: relative;
+    top: 100px;
+  }
+}

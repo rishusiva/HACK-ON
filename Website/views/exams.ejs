@@ -1,0 +1,52 @@
+<%- include("partials/header") %> 
+<div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="sub-content">
+        <!-- <i class="far fa-check-circle" aria-hidden="true"></i> -->
+        <h4 class="mt-2">Please read the instructions carefully.</h4>
+        <hr>
+        <ul>
+            <li>You can only submit a test once.</li>
+            <li>Test duration will be 30 minutes.</li>
+            <li>You should not change the window or the tab after the test is started.</li>
+            <li>Incase you did, you'll get three warnings and after that the test will be submitted automatically.</li>
+        </ul>
+      </div>
+      
+    </div>
+  
+  </div>
+<section id="exams">
+    <div class="container-main">
+        <div class="title-main">
+            <span id="blur">All exams</span>
+            <h3 id="heading">Exams</h3>
+        </div>
+        <div class="exams">
+            <div class="exam-1 exam">
+                <span>1.</span>
+                <span>Mock Test 1</span>
+                <span class="title"> - The Basics of C</span>
+                <a href="/exams/exam1" class="btn-start submitted" id="test11" style="pointer-events: none;cursor:not-allowed;">Submitted <i class="far fa-check-circle"></i></a>
+                <a href="/exams/test1" class="btn-start" id="test1">Start Test <i class="far fa-play"></i></a>
+            </div>
+            <div class="exam-2 exam">
+                <span>2.</span>
+                <span>Mock Test 2</span>
+                <span class="title"> - Loops</span>
+                <a href="/exams/exam1" class="btn-start submitted" id="test22" style="pointer-events: none;cursor:not-allowed;">Submitted <i class="far fa-check-circle"></i></a>
+                <a href="/exams/test2" class="btn-start"id="test2">Start Test <i class="far fa-play"></i></a>
+            </div>
+            <div class="exam-3 exam">
+                <span>3.</span>
+                <span>Mock Test 3</span>
+                <span class="title"> - Array Concepts</span>
+                <a href="/exams/exam1" class="btn-start submitted" id="test33" style="pointer-events: none;cursor:not-allowed;">Submitted <i class="far fa-check-circle"></i></a>
+                <a href="/exams/test3" class="btn-start"id="test3">Start Test <i class="far fa-play"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<%- include("partials/footer") %> 
