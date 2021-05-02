@@ -27,7 +27,7 @@
   letter-spacing: 0.5px;
   color: #4e4e4e;
 }
-#home .section ul {
+#home .section.mid ul {
   position: relative;
   left: 40px;
 }
