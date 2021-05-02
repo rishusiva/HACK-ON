@@ -12,6 +12,11 @@ Our project is divided into 2 segments:
 * Website
 * AI Proctoring
 
+<h2 align= "left"><b>Have Fun With Our Product</b></h2>
+
+- Website Link : https://proctorhat.herokuapp.com/
+- Youtube Demo : https://youtu.be/xqUJ7gxj490
+
 ## Proctorhat Website
 <p align="left">
 <img width=40% src="images/1.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
@@ -34,10 +39,7 @@ Our project is divided into 2 segments:
 <img width=40% src="images/image6.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 
-<h2 align= "left"><b>Have Fun With Our Product</b></h2>
 
-- Website Link : https://proctorhat.herokuapp.com/
-- Youtube Demo : https://youtu.be/xqUJ7gxj490
 
 <h2 align= "left"><b>Tech Stack Used</b></h2>
 
