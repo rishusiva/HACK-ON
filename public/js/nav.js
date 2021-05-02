@@ -52,11 +52,3 @@ let appt = (id, email) => {
     }
   );
 };
-firebase
-  .database()
-  .ref("users/" + userId + "/tests/")
-  .set({
-    test1: True,
-    test2: True,
-    test3: True,
-  });

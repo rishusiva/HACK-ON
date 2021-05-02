@@ -38,6 +38,9 @@ body {
   font-size: 70px;
   color: #6b5cff;
 }
+#errorModal .modal-content i {
+  color: red;
+}
 .close {
   color: #aaaaaa;
   position: absolute;
@@ -52,6 +55,18 @@ body {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+.container .timer {
+  position: absolute;
+}
+.container .timer p {
+  display: inline;
+  font-size: 18px;
+  margin-right: 10px;
+  background-color: #6b5cff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
 }
 .question {
   height: auto;

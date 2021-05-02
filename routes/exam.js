@@ -1,6 +1,6 @@
 const Router = require("express").Router();
 
-let exam1 = {
+let test1 = {
   title: "The Basics of C Language",
   questions: [
     {
@@ -55,7 +55,7 @@ let exam1 = {
     },
   ],
 };
-let exam2 = {
+let test2 = {
   title: "Loops",
   questions: [
     {
@@ -110,7 +110,7 @@ let exam2 = {
     },
   ],
 };
-let exam3 = {
+let test3 = {
   title: "Arrays and Pointers",
   questions: [
     {
@@ -183,4 +183,4 @@ let exam3 = {
     },
   ],
 };
-module.exports = { exam1, exam2, exam3 };
+module.exports = { test1, test2, test3 };

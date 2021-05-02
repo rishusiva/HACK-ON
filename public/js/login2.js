@@ -70,6 +70,14 @@ let writeUserData = (userId, name, email, regs) => {
       email: email,
       regst: regs,
     });
+  firebase
+    .database()
+    .ref("users/" + userId + "/tests/")
+    .set({
+      test1: "False",
+      test2: "False",
+      test3: "False",
+    });
 };
 document.getElementById("email").addEventListener("keyup", (e) => {
   let email = document.getElementById("email").value;

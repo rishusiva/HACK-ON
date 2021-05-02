@@ -32,7 +32,26 @@
         </div>
       
       </div>
+      <div id="errorModal" class="modal">
+        <div class="modal-content">
+          <span class="close"id="close-modal">&times;</span>
+          <div class="sub-content text-center">
+            <i class="far fa-exclamation-circle" aria-hidden="true"></i>
+            <p class="mt-2">You are not allowed to leave the page.</p>
+            <hr>
+            <h4>Warnings left: <span id="warnings"></span></h4>
+          </div>
+          
+        </div>
+      
+      </div>
     <div class="container">
+      <div class="timer">
+        <p id="hours"></p>
+        <p id="mins"></p>
+        <p id="secs"></p>
+        <h2 id="end"></h2>
+      </div>
         <form action="#" id="form">
             <div class="title text-center my-3 text-decoration-underline">
                 <h1><%= form.title %> </h1>
@@ -75,7 +94,7 @@
         //     e.preventDefault();
         //     e.returnValue = "";
         // });
-            let answer=[];
+        let answer=[];
     </script>
     <% for(let j=0; j<form.questions.length; j++) { %>
         <script>
@@ -89,6 +108,21 @@
          answers.push(JSON.parse(answer[i]));
         console.log(answers);
       </script>
+          <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+          <script>
+            var firebaseConfig = {
+              apiKey: "AIzaSyCZcGEuHYbLhS2tFqZgCEE8cP6255Df8sA",
+              authDomain: "hackathon-td-e4281.firebaseapp.com",
+              projectId: "hackathon-td-e4281",
+              databaseURL: "https://hackathon-td-e4281-default-rtdb.firebaseio.com/",
+              storageBucket: "hackathon-td-e4281.appspot.com",
+              messagingSenderId: "564313977129",
+              appId: "1:564313977129:web:e4aad11ae3c18b67038738",
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            var database = firebase.database();
+          </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="../js/view.js"></script>
 
